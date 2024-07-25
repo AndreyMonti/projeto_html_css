@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é HTML?</title>
+    <link rel="stylesheet" href="styles/pagina1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="paginainicio.html">Introdução</a></li>
+                <li><a href="pagina1.html">HTML</a></li>
+                <li><a href="pagina2.html">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introducao">
+            <h1>O que é CSS?</h1>
+            <p>CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para descrever a apresentação de documentos escritos em HTML ou XML. O CSS define como os elementos HTML devem ser exibidos, permitindo que os desenvolvedores separem o conteúdo da apresentação visual, resultando em páginas web mais organizadas e flexíveis.</p>
+            <h2>Exemplo de cabeçalhos</h2>
+            <h1>h1 Título Principal</h1>
+            <h2>h2 Subtítulo</h2>
+            <h3>h3 Cabeçalho de Seção</h3>
+            <h4>h4 Cabeçalho de Subseção</h4>
+            <h5>h5 Cabeçalho Menor</h5>
+            <h6>h6 Cabeçalho Menor</h6>
+        </section>
+
+        <section id="conceitos-basicos">
+            <h2>Conceitos Básicos</h2>
+            
+            <h3>Seletores</h3>
+            <p>Seletores são utilizados para selecionar os elementos HTML que você deseja estilizar. Existem vários tipos de seletores:</p>
+            <h4>Seletores de tag</h4>
+            <p>Estiliza todos os elementos de um determinado tipo.</p>
+            <pre><code>p { color: blue; }</code></pre>
+            <h4>Seletores de classe</h4>
+            <p>Estiliza elementos que possuem uma determinada classe.</p>
+            <pre><code>.minha-classe { font-size: 20px; }</code></pre>
+            <h4>Seletores de ID</h4>
+            <p>Estiliza um elemento específico com um determinado ID.</p>
+            <pre><code>#meu-id { background-color: yellow; }</code></pre>
+
+            <h3>Propriedades e Valores</h3>
+            <p>Propriedades são características que podem ser aplicadas aos elementos HTML e os valores definem como essas propriedades serão exibidas. Por exemplo:</p>
+            <pre><code>color: red; /* propriedade color com o valor red */</code></pre>
+
+            <h3>Classes e IDs</h3>
+            <p>Classes e IDs são atributos que podem ser adicionados aos elementos HTML para aplicar estilos específicos:</p>
+            <h4>Classe</h4>
+            <p>Utilize o atributo <code>class</code> para aplicar um estilo a múltiplos elementos.</p>
+            <pre><code>&lt;div class="minha-classe"&gt;&lt;/div&gt;</code></pre>
+            <h4>ID</h4>
+            <p>Utilize o atributo <code>id</code> para aplicar um estilo a um único elemento.</p>
+            <pre><code>&lt;div id="meu-id"&gt;&lt;/div&gt;</code></pre>
+
+            <h3>Cascata e Especificidade</h3>
+            <p>O CSS é aplicado aos elementos HTML seguindo regras de cascata e especificidade. A cascata determina a ordem em que os estilos são aplicados e a especificidade define a prioridade dos seletores:</p>
+            <ul>
+                <li>Seletores de ID têm maior prioridade que seletores de classe.</li>
+                <li>Seletores de classe têm maior prioridade que seletores de tag.</li>
+            </ul>
+        </section>
+
+        <section id="exemplo-pratico">
+            <h2>Exemplo Prático</h2>
+            <h3>Estilizando elementos HTML</h3>
+            <p>Vamos criar um exemplo prático utilizando seletores de tag, classe e ID, e demonstrar o uso de algumas propriedades comuns:</p>
+            <div id="exemplo">
+                <h4>Este é um cabeçalho</h4>
+                <p class="paragrafo">Este é um parágrafo estilizado com uma classe.</p>
+                <p>Este é um parágrafo sem classe.</p>
+                <p id="paragrafo-id">Este é um parágrafo estilizado com um ID.</p>
+            </div>
+        </section>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é HTML?</title>
+    <link rel="stylesheet" href="styles/pagina1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="paginainicio.html">Introdução</a></li>
+                <li><a href="pagina1.html">HTML</a></li>
+                <li><a href="pagina2.html">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introducao">
+            <h1>O que é HTML?</h1>
+            <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão utilizada para criar e estruturar páginas da web. Ele permite que os desenvolvedores definam a estrutura e o conteúdo de um site através do uso de tags e atributos, que indicam como os elementos da página, como textos, imagens, links e formulários, devem ser exibidos no navegador. HTML é a base de qualquer página da web e trabalha em conjunto com CSS (Cascading Style Sheets) e JavaScript para proporcionar uma experiência de usuário rica e interativa.</p>
+        </section>
+
+        <section id="tags-basicas">
+            <h2>Tags HTML Básicas</h2>
+            <h3>Parágrafos</h3>
+            <p>Os parágrafos são criados utilizando a tag <code>&lt;p&gt;</code>.</p>
+
+            <h3>Listas</h3>
+            <p>Existem dois tipos principais de listas em HTML:</p>
+            <h4>Listas não ordenadas</h4>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <h4>Listas ordenadas</h4>
+            <ol>
+                <li>Primeiro item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+            </ol>
+
+            <h3>Tabelas</h3>
+            <p>As tabelas são criadas utilizando as tags <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code> e <code>&lt;th&gt;</code>.</p>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>25</td>
+                </tr>
+            </table>
+
+            <h3>Imagens</h3>
+            <p>Imagens são adicionadas utilizando a tag <code>&lt;img&gt;</code>.</p>
+            <img src="https://via.placeholder.com/150" alt="Exemplo de imagem">
+
+            <h3>Links</h3>
+            <p>Links são criados utilizando a tag <code>&lt;a&gt;</code>.</p>
+            <a href="https://www.w3schools.com/html/">Aprenda mais sobre HTML</a>
+        </section>
+
+        <section id="exemplo-pratico">
+            <h2>Exemplo Prático</h2>
+            <h3>Criando uma pequena página de exemplo</h3>
+            <p>Abaixo está um pequeno exemplo prático utilizando algumas das tags mencionadas acima:</p>
+            <h4>Lista de Compras</h4>
+            <ul>
+                <li>Frutas</li>
+                <li>Legumes</li>
+                <li>Carnes</li>
+            </ul>
+            <h4>Contato</h4>
+            <p>Para mais informações, visite o <a href="https://www.w3schools.com">W3Schools</a> ou veja a imagem abaixo:</p>
+            <a href="https://www.w3schools.com">
+                <img id="logow3" src="img/w3schools_logo.png" alt="logo w3schools">
+            </a>
+        </section>
+    </main>
+</body>
+</html>
